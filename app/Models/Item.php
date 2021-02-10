@@ -17,8 +17,8 @@ class Item extends Model
     public static $filterables = [
         'author',
         'topic',
-        'additionals.frontend',
         'additionals.category.keyword',
+        'additionals.frontend.keyword',
         'additionals.set.keyword',
     ];
 
